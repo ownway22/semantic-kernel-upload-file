@@ -1,5 +1,5 @@
 [project]
-name = "sk-handofforchestration"
+name = "semantic-kernel-upload-file"
 version = "0.1.0"
 description = "Semantic Kernel Agent Handoff Orchestration with Image Analysis"
 authors = [

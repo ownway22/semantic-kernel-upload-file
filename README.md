@@ -1,4 +1,4 @@
-# Semantic Kernel HandoffOrchestration 多模態檔案上傳範例
+# Semantic Kernel Upload File 多模態檔案上傳範例
 
 這是一個基於 Microsoft Semantic Kernel 的 Multi-Agent 協調系統，展示如何使用 `HandoffOrchestration` 實現智能化的 Agent 轉移，並支援圖片、JSON、CSV 等多種檔案類型的上傳與分析。
 
@@ -14,11 +14,11 @@
 ## 🏗️ 專案結構
 
 ```text
-sk-handoffOrchestration/
-├── handoffOrchestration_uploadFile.py  # 主程式：Multi-Agent 協調與檔案上傳實作
+semantic-kernel-upload-file/
+├── semantic_kernel_upload_file.py  # 主程式：Multi-Agent 協調與檔案上傳實作
 ├── pyproject.toml                      # 專案配置與依賴管理
 ├── uv.lock                             # UV 套件管理器鎖定檔案
-├── architecture.png                    # 測試用 Azure 架構圖範例
+├── sample_image.png                    # 測試用 Azure 架構圖範例
 ├── sample_data.json                    # 測試用 JSON 配置檔案
 ├── sample_orders.csv                   # 測試用訂單 CSV 資料
 ├── .venv/                              # Python 虛擬環境（自動生成）
@@ -74,7 +74,7 @@ FileAnalysisAgent → SupportAgent (分析完成)
 
 1. **複製專案**
    ```bash
-   cd sk-handoffOrchestration
+   cd semantic-kernel-upload-file
    ```
 
 2. **配置環境變數**
@@ -100,7 +100,7 @@ FileAnalysisAgent → SupportAgent (分析完成)
 
 4. **執行程式**
    ```bash
-   uv run python handoffOrchestration_uploadFile.py
+   uv run python semantic_kernel_upload_file.py
    ```
 
 ## 💡 使用範例
@@ -118,7 +118,7 @@ orchestration_result = await handoff_orchestration.invoke(
 ### 範例 2：圖片分析
 
 ```python
-image_task = load_image_for_analysis("architecture.png")
+image_task = load_image_for_analysis("sample_image.png")
 image_result = await handoff_orchestration.invoke(
     task=image_task,
     runtime=runtime,

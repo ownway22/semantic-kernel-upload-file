@@ -225,9 +225,9 @@ async def main():
     print("範例 2: 架構圖分析")
     print("=" * 80)
     
-    # 指定圖片路徑 - 使用當前目錄的 architecture.png
+    # 指定圖片路徑 - 使用當前目錄的 sample_image.png
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    image_path = os.path.join(current_dir, "architecture.png")
+    image_path = os.path.join(current_dir, "sample_image.png")
     
     if os.path.exists(image_path):
         try:
