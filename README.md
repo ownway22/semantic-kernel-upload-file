@@ -303,14 +303,6 @@ if mime_type == 'your/mime-type':
 3. **OneDrive 同步**：建議使用 `--link-mode=copy` 避免硬連結問題
 4. **Token 限制**：注意 Azure OpenAI 的 Token 使用量
 
-## 🤝 貢獻
-
-歡迎提交 Issue 和 Pull Request！
-
-## 📄 授權
-
-本專案僅供學習和參考使用。
-
 ## 📚 相關資源
 
 - [Semantic Kernel 官方文件](https://learn.microsoft.com/en-us/semantic-kernel/)
@@ -318,11 +310,6 @@ if mime_type == 'your/mime-type':
 - [HandoffOrchestration 指南](https://learn.microsoft.com/en-us/semantic-kernel/agents/)
 - [UV 套件管理器](https://docs.astral.sh/uv/)
 
-## 📧 聯絡資訊
-
-如有問題或建議，請透過 Issue 回報。
-
 ---
 
-**版本：** 0.1.0  
 **最後更新：** 2025-11-22
