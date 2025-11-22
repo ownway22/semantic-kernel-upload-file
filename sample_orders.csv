@@ -1,0 +1,6 @@
+﻿OrderID,CustomerName,Product,Quantity,Price,Status
+ORD001,Alice Johnson,Laptop,1,1299.99,Shipped
+ORD002,Bob Smith,Mouse,2,29.99,Delivered
+ORD003,Carol Williams,Keyboard,1,89.99,Processing
+ORD004,David Brown,Monitor,2,349.99,Refunded
+ORD005,Emma Davis,Webcam,1,79.99,Shipped

@@ -1,0 +1,23 @@
+﻿{
+  "project": "Azure Semantic Kernel Demo",
+  "version": "1.0.0",
+  "description": "HandoffOrchestration with file upload support",
+  "features": [
+    "Multi-agent orchestration",
+    "Image analysis",
+    "File upload and analysis",
+    "Dynamic agent handoff"
+  ],
+  "agents": {
+    "SupportAgent": "Initial customer request handler",
+    "RefundAgent": "Handles refund requests",
+    "OrderStatusAgent": "Checks order status",
+    "ImageAnalysisAgent": "Analyzes images and diagrams",
+    "FileAnalysisAgent": "Analyzes various file types"
+  },
+  "technologies": [
+    "Azure OpenAI",
+    "Semantic Kernel",
+    "Python 3.10+"
+  ]
+}
